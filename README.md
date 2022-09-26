@@ -32,7 +32,7 @@ edit time: 2022-09-26
 
 ### 未正常驱动 / Not Drived
 - [x] 蓝牙 /  Bluetooth
-	 -  [x]  Intel(R) Wi-Fi 6 AX200 160MHz自带的(
+	 -  [x]  Intel(R) Wi-Fi 6 AX200 160MHz自带的supplier_id:0x8087 & product_id:0x0029 (
 IntelBluetoothFirmware无效，极低概率可传输文件成功)
 
 ### 引导安装U盘目录结构 / USB Installer Directory Structure
