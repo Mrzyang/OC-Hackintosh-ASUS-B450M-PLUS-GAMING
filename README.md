@@ -78,7 +78,8 @@ IntelBluetoothFirmware无效，极低概率可传输文件成功)
 6. win10&macos双系统时间不同步解决办法，win10上以管理员命令行执行 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1， 重启电脑
 
 ### 提示
-双系统引导需要添加两条EFI记录，分别是OpenCore和windows boot manager（win10装好一般就存在了，所以只需要手动添加一条OC的），推荐用easyEFI或者BOOTICE，分别指向\EFI\OC\OpenCore.efi和\EFI\Microsoft\Boot\bootmgfw.efi， 并把OC引导放前面（优先）
+1. 双系统引导需要添加两条EFI记录，分别是OpenCore和windows boot manager（win10装好一般就存在了，所以只需要手动添加一条OC的），推荐用easyEFI或者BOOTICE，分别指向\EFI\OC\OpenCore.efi和\EFI\Microsoft\Boot\bootmgfw.efi， 并把OC引导放前面（优先）
+2. opencore_macos.CMO与opencore_macos_setting.txt是该主板调整好的bios设置，开机按F2然后加载就完了
 ### 参考链接 / Reference Link
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 - [
