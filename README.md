@@ -10,8 +10,9 @@ edit time: 2022-09-26
 
 
 
-### 系统版本 / Firmware version
-- [x] macOS 版本 / macOS Version
+### 固件版本 / Firmware version
+- [x] Mainboard bios Version: 3802, updated on 2022/05/12, 10.81 MBytes 
+- [x] MacOS 版本 / macOS Version
     - [x] 10.15.7 Catalina 
 - [x] OpenCore Version: 0.6.7
 ### 完美驱动 / Perfectly Drived
@@ -20,7 +21,7 @@ edit time: 2022-09-26
 - [x] CPU
     - [x] Ryzen r5 2600x(锐龙cpu理论上不限制，后续有升级到R5 5600x的打算)
 - [x] 显卡 / GPU
-    - [x] NVIDIA GT720 2G 铭瑄
+    - [x] NVIDIA GT710 2G 铭瑄
 - [x] 声卡 / Audio Card
     - [x] Realtek ALC887
 - [x] 睡眠&唤醒 / Sleep&Wake Up
